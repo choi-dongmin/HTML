@@ -79,9 +79,9 @@ TAG 에는 열린 Tag , 닫힌 Tag 가 있다
 
 html : web 문서를 만들기 위한 기본적인 확장자, 웹 언어
 
-<strong> </strong> : 강조하고 싶은 text 를 진하게 표현 해주는 TAG
+"<strong> </strong>" : 강조하고 싶은 text 를 진하게 표현 해주는 TAG
 
-<u> </u> : 강조하고 싶은 text 밑에 밑줄을 표현 해주는 TAG
+"<u> </u>" : 강조하고 싶은 text 밑에 밑줄을 표현 해주는 TAG
 
 
 ## 참고 
