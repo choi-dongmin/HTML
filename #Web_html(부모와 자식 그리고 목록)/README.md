@@ -46,9 +46,13 @@ HTML CSS JavaScript 를 우리는 목록으로 만들고 싶다, 그럼 우리�
 ```   
 위와 같은 식으로 목록을 만들고 싶은 내용을 줄바꿈과 번호를 통해 우리가 지금 할 수 있는 것들을 적용시켜 주었다.
 
-그러나 이 Web 개발자들은 보다 편리하게 목록을 만들수 있도록 Tag를 만들었는데 그것이 바로 "<li></li>" 이다.
+그러나 이 Web 개발자들은 보다 편리하게 목록을 만들수 있도록 Tag를 만들었는데 그것이 바로 list 이다.
 
-이 "<li>" 는 list 의 약자로 영어로 목록을 뜻한다.
+```
+list
+
+<li></li>
+```
 
 ```
 파일명 : 목록 3.html
@@ -64,12 +68,16 @@ HTML CSS JavaScript 를 우리는 목록으로 만들고 싶다, 그럼 우리�
 <p>This is practice <strong> <u>Not Real </u> </strong>  And you can't see this page.</p>
 ```
 
-위와 같은 방식으로 만들어 주면 "<br>" 을 하지 않아도 각각의 항목이 줄이 바뀌고 앞에 * 가 붙음으로 좀 더 목록 다운 모습을 같게 된다
+위와 같은 방식으로 만들어 주면 줄 바꿈을 하지 않아도 각각의 항목이 줄이 바뀌고 앞에 * 가 붙음으로 좀 더 목록 다운 모습을 같게 된다
 
 그런데 만약 이러한 목록이 여러개라면 우리는 관련 된 것들끼리 묶어주는것이 좀 더 보기가 편할것이다.
 
-그럴때 우리는 문단을 나눌때 사용한 "<p>" 처럼 각각 목록마다 묶어주고 줄을 띄워주는 "<ul>" 을 사용 할 수 있다.
-	
+그럴때 우리는 Unordered list 를 통해 문단을 나누어준 Tag p 처럼 각각 목록마다 묶어주고 줄을 띄워주 기능을 목록에 사용 할 수 있다.
+```
+Unordered list
+
+<ul></ul>
+```
 ```
 파일명 : 목록 4.html
 <ul>
@@ -96,7 +104,12 @@ HTML CSS JavaScript 를 우리는 목록으로 만들고 싶다, 그럼 우리�
 
 그래서 Web 개발자들은 목록에 숫자를 정렬 해줄수 있는 Tag 를 만들었다.
 
-"<li>" 의 부모 Tag "<ol>" 이다.
+list 의 부모 Tag ordered list 이다.
+```
+Ordered list
+<ol></ol>
+```
+
 
 ```
 파일명 : 목록 5.html
@@ -117,7 +130,7 @@ HTML CSS JavaScript 를 우리는 목록으로 만들고 싶다, 그럼 우리�
 <img src="1.jpg" width="100%">
 <p>This is practice <strong> <u>Not Real </u> </strong>  And you can't see this page.</p>
 ```
-위 처럼 "<li>"의 부모 Tag 를 "<ol>" 로 바꾸어주고 숫자를 지워 주었다, 결과값을 확인해보면 앞에 숫자가 저절로 입력되고 이것은 숫자가 있는 목록을 수정을 하는데 아주 큰 역할을 한다.
+위 처럼 li 의 부모 Tag 를 ol 로 바꾸어주고 숫자를 지워 주었다, 결과값을 확인해보면 앞에 숫자가 저절로 입력되고 이것은 숫자가 있는 목록을 수정을 하는데 아주 큰 역할을 한다.
 
 
 ## 키워드
@@ -126,15 +139,15 @@ HTML CSS JavaScript 를 우리는 목록으로 만들고 싶다, 그럼 우리�
 
 자식 Tag : 부모 Tag 에 포함 되어져있는 형태의 Tag
 
-"<p></p>" : 문단을 지정해주는 Tag
+p : 문단을 지정해주는 Tag
 
-"<li></li>" : 영어의 list 의 약자로 목록을 만들때 이용하는 Tag
+li : 영어의 list 의 약자로 목록을 만들때 이용하는 Tag
 
-"<ul></ul>" : Unordered list 의 약자로 큰 목록과 목록을 구분지어주는 Tag, <li> 의 부모 Tag 이다
+ul : Unordered list 의 약자로 큰 목록과 목록을 구분지어주는 Tag, <li> 의 부모 Tag 이다
 
-"<ol></ol>" : Ordered list 의 약자로 <ul> 과 같이 목록을 구분해주고 목록에 숫자도 입력하고 자동으로 정렬해주는 Tag
+ol : Ordered list 의 약자로 <ul> 과 같이 목록을 구분해주고 목록에 숫자도 입력하고 자동으로 정렬해주는 Tag
 
-"<br>" : 줄을 한칸 바꾸어주는 Tag
+br : 줄을 한칸 바꾸어주는 Tag
  
 ## 참고
 [생활코딩](https://opentutorials.org/course/3084/18408)
