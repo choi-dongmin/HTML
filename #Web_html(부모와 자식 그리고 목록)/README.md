@@ -143,9 +143,9 @@ p : 문단을 지정해주는 Tag
 
 li : 영어의 list 의 약자로 목록을 만들때 이용하는 Tag
 
-ul : Unordered list 의 약자로 큰 목록과 목록을 구분지어주는 Tag, <li> 의 부모 Tag 이다
+ul : Unordered list 의 약자로 큰 목록과 목록을 구분지어주는 Tag, li 의 부모 Tag 이다
 
-ol : Ordered list 의 약자로 <ul> 과 같이 목록을 구분해주고 목록에 숫자도 입력하고 자동으로 정렬해주는 Tag
+ol : Ordered list 의 약자로 ul 과 같이 목록을 구분해주고 목록에 숫자도 입력하고 자동으로 정렬해주는 Tag
 
 br : 줄을 한칸 바꾸어주는 Tag
  
