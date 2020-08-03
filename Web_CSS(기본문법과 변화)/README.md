@@ -113,11 +113,11 @@ a{
 그리고 그 속성(property)은 color 이고 속성의 변수(value)는 red 이다.
 
 ```
-<style> 				// CSS Tag
-a	{							// selecter
-								// declaration
+<style> 			// CSS Tag
+a	{			// selecter
+				// declaration
 		color : red	// property , value
-								// declaration
+				// declaration
 	}
 </style>
 
