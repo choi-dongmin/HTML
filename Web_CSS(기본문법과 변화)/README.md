@@ -98,6 +98,31 @@ Tag 같은 경우 따로 어떤 위치에 CSS 효과를 적용 할 것인지 선
 
 정리하면 Tag 를 통해 CSS 효과를 주고 싶다면 선택자를 통해 어디에 적용 할 것인가 지정해주어야 하고 속성을 이용할 때는 속성이 위치한 Tag 에 적용이 된다.
 
+## CSS 문법 구조
+```
+<style>
+a{
+	color : red
+}
+</style>
+```
+우리는 위의 style Tag 로 CSS 문법을 알아볼수 있다.
+
+처음 나오는 a 는 선택자(selecter)이다 그리고 이 괄호의 안쪽은 우리가 어떠한 속성을 선언(declaration) 할 것이다
+
+그리고 그 속성(property)은 color 이고 속성의 변수(value)는 red 이다.
+
+```
+<style> 				// CSS Tag
+a	{							// selecter
+								// declaration
+		color : red	// property , value
+								// declaration
+	}
+</style>
+
+``` 
+
 ## 키워드
 
 Tag 를 이용한 CSS : style Tag 이용해 CSS 문법을 읽는 방식으로 선택자를 통해 지정한 위치에 적용한다.
