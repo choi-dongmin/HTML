@@ -114,11 +114,11 @@ a{
 
 ```
 <style> 			// CSS Tag
-a	{			// selecter
+a	{			// selecter,  declaration
 				// declaration
 		color : red	// property , value
 				// declaration
-	}
+	}			// declaration
 </style>
 
 ``` 
