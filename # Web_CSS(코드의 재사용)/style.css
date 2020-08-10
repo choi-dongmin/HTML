@@ -1,0 +1,50 @@
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr
+}
+#now{
+    color : red
+}
+#CSShref{
+  font-size: 15px
+}
+a{
+  color : black;
+  text-decoration : none;
+}
+.saw{
+  color : gray
+}
+h1{
+  text-align: center;
+  border-bottom:  3px gray solid;
+  margin:0px;
+  font-size: 70px;
+  padding: 10px;
+
+}
+ol{
+  font-size: 26px;
+  border-right: 3px gray solid;
+  width:160px;
+  margin:0px;
+  padding : 50px;
+  padding-top: 30px;
+
+  }
+h2{
+  display: inline;
+}
+@media(max-width:800px) {
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+    padding : 20px;
+  }
+  h1{
+    border-bottom: none;
+    padding: 0px;
+  }
+}
