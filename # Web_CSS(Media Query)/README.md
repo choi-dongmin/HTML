@@ -88,7 +88,7 @@ div 의 가시성을 높이고자 초록색 실선을 넣었다.
 				width:160px;
 				margin:0px;
 				padding : 50px;
-	    	padding-top: 30px;
+	    			padding-top: 30px;
 
 				}
 			h2{
