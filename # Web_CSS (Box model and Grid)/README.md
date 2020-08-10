@@ -1,4 +1,4 @@
-# Web_CSS (Box Model and Greed)
+# Web_CSS (Box Model and Grid)
 
 ## Box Model 
 
