@@ -43,12 +43,12 @@ Html 의 Tag 들은 각각의 성격에 따라서 화면 전체를 사용하기�
 4. display : 어떠한 Tag 가 가진 표시되는 기본적인 속성을 관장하는 Tag (display : inline, block... 등 으로 사용한다.) 
 
 5. width : Tag 가 가진 공간의 폭을 관장하는 속성
-```
+
 ## Grid
 
 Tag 를 사용하다 보면 우리는 디자인 목적을 위해서 본문을 재배치 시켜야 한다 이럴때 사용하는 Tag 가 바로 div, span Tag 이다 우리는 필요한 상황에 맞춰 Tag 를 사용한다.
 
-
+```
 div : div Tag 는 display 가 block level element 이다.  
 
 sapn : span Tag 는 display 가 inline element 이다.
