@@ -48,7 +48,7 @@ div 의 가시성을 높이고자 초록색 실선을 넣었다.
 
 그리고 이 부분이 바로 media query 이다 위 예문에서는 위 문장은 이렇게 해석 할수있다.
 
- "화면의 너비가 800px 보다 크면 div 의 display 는 없다".(min-width : 800px / 화면의 너비가 800px 보다 작으면 display none 을 하여라)
+ "화면의 너비가 800px 보다 크면 div 의 display 는 없다".(mix-width : 800px / 화면의 너비가 800px 보다 작으면 display none 을 하여라)
 
 
 ## 활용
